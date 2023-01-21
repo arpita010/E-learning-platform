@@ -1,0 +1,25 @@
+.c-white {
+	color: white !important;
+}
+/*
+.row-maxwidth
+{
+	border:2px solid red;
+}*/
+.mt-50 {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 5%;
+}
+
+.sidebar-icon-image {
+	height: 100px;
+	width: 100px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.overflowing {
+	max-width: 100%;
+	overflow-y: scroll;
+}

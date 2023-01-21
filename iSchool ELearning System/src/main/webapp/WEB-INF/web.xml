@@ -1,0 +1,187 @@
+
+<web-app>
+	<display-name>iSchool ELearning System</display-name>
+	<!-- change admin password servlet mapping -->
+	<servlet>
+		<servlet-name>changeAdminPassword</servlet-name>
+		<servlet-class>com.servlet.changeAdminPasswordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>changeAdminPassword</servlet-name>
+		<url-pattern>/change</url-pattern>
+	</servlet-mapping>
+	<!-- sign up mapping -->
+	<servlet>
+		<servlet-name>signup</servlet-name>
+		<servlet-class>com.servlet.SignupServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>signup</servlet-name>
+		<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+	<!-- addCourse Servlet mapping -->
+	<servlet>
+		<servlet-name>addCourse</servlet-name>
+		<servlet-class>com.servlet.AddCourseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addCourse</servlet-name>
+		<url-pattern>/addCourse</url-pattern>
+	</servlet-mapping>
+	<!-- addChapter Servlet Mapping -->
+	<servlet>
+		<servlet-name>addChapter</servlet-name>
+		<servlet-class>com.servlet.AddChapterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addChapter</servlet-name>
+		<url-pattern>/addChapter</url-pattern>
+	</servlet-mapping>
+	<!-- addStudent Servlet mapping -->
+	<servlet>
+		<servlet-name>addStudent</servlet-name>
+		<servlet-class>com.servlet.AddNewStudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addStudent</servlet-name>
+		<url-pattern>/addStudent</url-pattern>
+	</servlet-mapping>
+	<!-- updateProfile Servlet Mapping -->
+	<servlet>
+		<servlet-name>updateProfile</servlet-name>
+		<servlet-class>com.servlet.updateProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateProfile</servlet-name>
+		<url-pattern>/updateProfile</url-pattern>
+	</servlet-mapping>
+	<!--student login servlet mapping -->
+	<servlet>
+		<servlet-name>studentLogin</servlet-name>
+		<servlet-class>com.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>studentLogin</servlet-name>
+		<url-pattern>/StudentLogin</url-pattern>
+	</servlet-mapping>
+	<!-- admin login servlet mapping -->
+	<servlet>
+		<servlet-name>adminLogin</servlet-name>
+		<servlet-class>com.servlet.AdminLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminLogin</servlet-name>
+		<url-pattern>/adminLogin</url-pattern>
+	</servlet-mapping>
+	<!-- changeProfilePictureServlet Mapping -->
+	<servlet>
+	<servlet-name>changeProfile</servlet-name>
+	<servlet-class>com.servlet.ChangeProfilePictureServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>changeProfile</servlet-name>
+	<url-pattern>/changeProfile</url-pattern>
+	</servlet-mapping>
+	<!-- CheckoutServlet MApping -->
+	<servlet>
+	<servlet-name>checkout</servlet-name>
+	<servlet-class>com.servlet.CheckoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>checkout</servlet-name>
+	<url-pattern>/checkout</url-pattern>
+	</servlet-mapping>
+	<!-- ChangeStudentPasswordServlet mapping -->
+	<servlet>
+	<servlet-name>changeStudentPassword</servlet-name>
+	<servlet-class>com.servlet.ChangeStudentPasswordServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>changeStudentPassword</servlet-name>
+	<url-pattern>/changeStudentPassword</url-pattern>
+	</servlet-mapping>
+	<!-- SendFeedbackServlet MApping -->
+	<servlet>
+	<servlet-name>sendFeedback</servlet-name>
+	<servlet-class>com.servlet.SendFeedbackServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>sendFeedback</servlet-name>
+	<url-pattern>/sendFeedback</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteCourseServlet Mapping -->
+	<servlet>
+	<servlet-name>deleteCourse</servlet-name>
+	<servlet-class>com.servlet.DeleteCourseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>deleteCourse</servlet-name>
+	<url-pattern>/deleteCourse</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteOrderServlet mapping -->
+	<servlet>
+	<servlet-name>deleteOrder</servlet-name>
+	<servlet-class>com.servlet.DeleteOrderServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>deleteOrder</servlet-name>
+	<url-pattern>/deleteOrder</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteChapterServlet mapping -->
+	<servlet>
+	<servlet-name>delChapter</servlet-name>
+	<servlet-class>com.servlet.DeleteChapterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>delChapter</servlet-name>
+	<url-pattern>/deleteChapter</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteFeedbackServlet mapping -->
+	<servlet>
+	<servlet-name>deleteFeedback</servlet-name>
+	<servlet-class>com.servlet.DeleteFeedbackServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>deleteFeedback</servlet-name>
+	<url-pattern>/deleteFeedback</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteStudentServlet mapping -->
+	<servlet>
+	<servlet-name>deleteStudent</servlet-name>
+	<servlet-class>com.servlet.DeleteStudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>deleteStudent</servlet-name>
+	<url-pattern>/deleteStudent</url-pattern>
+	</servlet-mapping>
+	<!-- EditCourseServlet mapping -->
+	<servlet>
+	<servlet-name>editCourse</servlet-name>
+	<servlet-class>com.servlet.EditCourseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>editCourse</servlet-name>
+	<url-pattern>/editCourse</url-pattern>
+	</servlet-mapping>
+	<!-- EditStudentServlet mapping -->
+	<servlet>
+	<servlet-name>editStudent</servlet-name>
+	<servlet-class>com.servlet.EditStudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>editStudent</servlet-name>
+	<url-pattern>/editStudent</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<!-- welcome file list -->
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+	</welcome-file-list>
+</web-app>
